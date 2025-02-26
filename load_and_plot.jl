@@ -126,7 +126,7 @@ xlim_val = [DateTime(2024, 08, 13, 16, 29), DateTime(2024, 08, 13, 18, 00)]
 f = Figure(size = (800, 1000), fontsize = 16)
 # Ne
 ax1 = Axis(f[1, 1], xminorticksvisible = true, xminorticks = IntervalsBetween(3),
-          dim1_conversion = conversion, ylabel = "Altitude (km)", title = file)
+          dim1_conversion = conversion, ylabel = "Altitude (km)", title = basename(file))
 hm = heatmap!(tmean, h, Ne'; colorscale = log10, colorrange = (1e10, 1e12),
               colormap = :inferno)
 cb = Colorbar(f[1, 2], hm; label = "Ne (m⁻³)")
@@ -167,4 +167,4 @@ display(f)
 # display(GLMakie.Screen(), f) # to open a new plotting window every time
 
 ##
-save("vhf_54.png", f; px_per_unit = 2)
+save("figures/vhf_54.png", f; px_per_unit = 2)
