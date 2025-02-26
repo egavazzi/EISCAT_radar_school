@@ -1,4 +1,6 @@
-Julia script originally written during the EISCAT radar school 2024, to plot data from EISCAT ISR.
+Julia script originally written during the EISCAT radar school 2024, to plot data from EISCAT ISR. 
+
+The script to run is the one named `load_and_plot.jl`.
 
 Can read `.hdf5` data downloaded from Madrigal or produced directly by GUISDAP.
 
