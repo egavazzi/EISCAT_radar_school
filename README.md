@@ -3,9 +3,9 @@ Julia script originally written during the EISCAT radar school 2024, to plot dat
 
 Can read `.hdf5` data downloaded from Madrigal or produced directly by GUISDAP.
 
-Makes plot like this one ⬇️
-![vhf_54](https://github.com/user-attachments/assets/c0958bcc-9dfa-4b6a-b68a-ef8872fdecfa)
+Make plots like this one ⬇️
 
+![vhf_54](https://github.com/user-attachments/assets/047b3f09-acba-4e80-9204-7eb39faf04a3)
 
 ## How to run
 1. If not already done, install Julia (![instructions](https://julialang.org/downloads/))
