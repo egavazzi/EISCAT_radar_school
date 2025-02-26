@@ -5,7 +5,7 @@ Can read `.hdf5` data downloaded from Madrigal or produced directly by GUISDAP.
 
 Make plots like this one ⬇️
 
-![vhf_54](https://github.com/user-attachments/assets/047b3f09-acba-4e80-9204-7eb39faf04a3)
+<img src="figures/vhf_54.png" width="600" />
 
 ## How to run
 1. If not already done, install Julia (![instructions](https://julialang.org/downloads/))
