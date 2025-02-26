@@ -103,10 +103,10 @@ end
 
 
 ## Load data
-# file = "EISCAT_2024-08-13_tau7_54@vhf.hdf5" # VHF
+# file = "data/EISCAT_2024-08-13_tau7_54@vhf.hdf5" # VHF
 # tmean, h, Ne, Te, Ti, Vi = load_from_guisdap(file)
 
-file = "MAD6400_2024-08-13_tau7_60@42m.hdf5" # 42m
+file = "data/MAD6400_2024-08-13_tau7_60@42m.hdf5" # 42m
 tmean, h, Ne, Te, Ti, Vi = load_from_madrigal(file)
 
 # VHF latitudes (obtained manually from Madrigal)
