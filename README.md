@@ -9,10 +9,10 @@ Make plots like this one ⬇️
 <img src="figures/vhf_54.png" width="600" />
 
 ## How to run
-1. If not already done, install Julia (![instructions](https://julialang.org/downloads/))
+1. If not already done, install Julia ([instructions](https://julialang.org/downloads/))
 2. Download the repository, either with git or as a `.zip`
 3. The first time you run the code, you will need to initialize the environment.
-   You can read how packages and environments work in Julia ![here](https://pkgdocs.julialang.org/v1/getting-started/) and ![there](https://modernjuliaworkflows.org/writing/#repl).
+   You can read how packages and environments work in Julia [here](https://pkgdocs.julialang.org/v1/getting-started/) and [there](https://modernjuliaworkflows.org/writing/#repl).
    Here are some quick instructions:
    - Start Julia from inside the folder where the code was installed
    - Move into package mode by pressing  `]`  on your keyboard
