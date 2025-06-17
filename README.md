@@ -27,7 +27,6 @@ Make plots like this one ⬇️
    ```julia
    (EISCAT_radar_school) pkg> instantiate
    ```
-   - you can read more about how packages and environments work in Julia ![here](https://pkgdocs.julialang.org/v1/getting-started/) and ![there](https://modernjuliaworkflows.org/writing/#repl).
 5. There are different ways to run code in Julia. One of them is to launch the script with this command
    ```julia
    julia> include("load_and_plot.jl")
